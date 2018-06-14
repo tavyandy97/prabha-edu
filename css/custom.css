@@ -321,7 +321,7 @@ div nav div ul .nav-item a:hover{
 }
 .image-floater{
 	animation: panning 30s infinite linear;
-	background-size: 175%;
+	background-size: 250%;
 	position: relative;
 	width: 100%;
 	height:100vh;
@@ -335,14 +335,20 @@ div nav div ul .nav-item a:hover{
 	font-weight: bold;
 	padding: 5% 5%  0% 5%;
 	animation-duration: 3s;
-	/*animation-delay: 0s 30s;*/
+	animation-delay: 1.5s;
 	animation-iteration-count:1;
 	-moz-animation-duration: 3s;
-	/*-moz-animation-delay: 30s;*/
+	-moz-animation-delay: 1.5s;
 	-moz-animation-iteration-count: 1;
 	-webkit-animation-duration: 3s;
-	/*-webkit-animation-delay: 30s;*/
+	-webkit-animation-delay: 1.5s;
 	-webkit-animation-iteration-count: 1;
+	-o-animation-duration: 3s;
+	-o-animation-delay: 1.5s;
+	-o-animation-iteration-count: 1;
+	-ms-animation-duration: 3s;
+	-ms-animation-delay: 1.5s;
+	-ms-animation-iteration-count: 1;
 }
 .img-floater-sub-heading{
 	padding: 0.5% 5% 0.5% 5%;
@@ -351,14 +357,20 @@ div nav div ul .nav-item a:hover{
 	font-size:1.1em;
 	text-shadow: 1px 1px #111; 
 	animation-duration: 3s;
-	/*animation-delay: 0s 30s;*/
+	animation-delay: 1.5s;
 	animation-iteration-count:1;
 	-moz-animation-duration: 3s;
-	/*-moz-animation-delay: 30s;*/
+	-moz-animation-delay: 1.5s;
 	-moz-animation-iteration-count: 1;
 	-webkit-animation-duration: 3s;
-	/*-webkit-animation-delay: 30s;*/
+	-webkit-animation-delay: 1.5s;
 	-webkit-animation-iteration-count: 1;
+	-o-animation-duration: 3s;
+	-o-animation-delay: 1.5s;
+	-o-animation-iteration-count: 1;
+	-ms-animation-duration: 3s;
+	-ms-animation-delay: 1.5s;
+	-ms-animation-iteration-count: 1;
 }
 @keyframes panning {
 	0%{background-position: 0% 50%;}
@@ -369,7 +381,7 @@ div nav div ul .nav-item a:hover{
   75% {background-position: 0 100%;}
   200% {background-position: 0 0;}*/
 }
-#yourElement {
+/*#yourElement {
   animation-duration: 3s;
   animation-delay: 2s;
   animation-iteration-count: infinite;
@@ -379,4 +391,4 @@ div nav div ul .nav-item a:hover{
   -webkit-animation-duration: 3s;
   -webkit-animation-delay: 2s;
   -webkit-animation-iteration-count: infinite;
-}
+}*/
