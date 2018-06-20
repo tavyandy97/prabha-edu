@@ -56,7 +56,11 @@ div nav div ul .nav-item a:hover{
 	border-bottom: solid 3px var(--yellow-logo);
 	padding-top: 0px;
 }
-
+div nav div ul .nav-item .active{
+	color: var(--yellow-logo);
+	border-bottom: solid 3px var(--yellow-logo);
+	padding-top: 0px;
+}
 .navbar{
 	padding:0px; 
 }
