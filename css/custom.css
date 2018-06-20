@@ -284,9 +284,10 @@ div nav div ul .nav-item a:hover{
 }
 #links{
 	list-style-type: none;
+	padding: 0px;
 }
 #links li{
-	margin: 10px;
+	margin: 10px 0px;
 	font-size: 1.2em;
 }
 #links li a:link,
@@ -304,10 +305,10 @@ div nav div ul .nav-item a:hover{
 	min-height: 40px;
 	vertical-align: middle;
 	padding: 0px 10px;
+	text-align: center; 
 }
 #copyrights-social .social{
 	font-size: 2em;
-	text-align: right; 
     display: block;  
 }
 #copyrights-social .social a:link,
@@ -392,3 +393,88 @@ div nav div ul .nav-item a:hover{
   -webkit-animation-delay: 2s;
   -webkit-animation-iteration-count: infinite;
 }*/
+.contact-headings{
+	color: var(--yellow-logo);
+	font-size: 2em;
+	margin:20px auto;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.page-head{
+	height: 50vh;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#cc000000',GradientType=0 );
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 1%, rgba(0,0,0,0.7) 55%, rgba(0,0,0,0.8) 100%), url("./../img/page_head.jpg"); 
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 1%,rgba(0,0,0,0.7) 55%,rgba(0,0,0,0.8) 100%), url("./../img/page_head.jpg"); 
+	background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 1%,rgba(0,0,0,0.7) 55%,rgba(0,0,0,0.8) 100%), url("./../img/page_head.jpg"); 
+	background-position: 0% 50%;
+	background-attachment: fixed;
+	background-size: contain;
+}
+.page-end{
+	height: 50vh;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', endColorstr='#cc000000',GradientType=0 );
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 1%, rgba(0,0,0,0.7) 55%, rgba(0,0,0,0.8) 100%), url("./../img/firstproject.jpg"); 
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 1%,rgba(0,0,0,0.7) 55%,rgba(0,0,0,0.8) 100%), url("./../img/firstproject.jpg"); 
+	background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 1%,rgba(0,0,0,0.7) 55%,rgba(0,0,0,0.8) 100%), url("./../img/firstproject.jpg"); 
+	background-position: 0% 50%;
+	background-attachment: fixed;
+	background-size: contain;
+	margin: 20px 0px ;
+}
+.form-control{
+	border-radius: 20px;
+	margin:10px 10px ;
+	padding: 10px 30px ;
+	width: 100%;
+}
+textarea {
+    height: 30vh;
+}
+.btn-submit{
+	width: 40%;
+	background-color: var(--yellow-logo);
+	color: white;
+}
+.page-head-heading{
+	color: white;
+	font-size:3em;
+	text-shadow: 2px 2px #333; 
+	font-weight: bold;
+	padding: 5% 5%  0% 5%;
+	text-align: center;
+}
+.page-head-sub-heading{
+	color: white;
+	font-size:1.5em;
+	text-shadow: 1px 1px #333; 
+	font-style: italic;
+	padding: 5% 5%  0% 5%;
+	text-align: center;
+}
+.member-card{
+	background-color: lightgray;
+	margin:10px 0px;
+	padding: 10px;
+	font-size: 0.9em;
+}
+.member-card div hr{
+	margin:5px;
+}
+.member-card hr{
+	margin:5px;
+}
+.member-picture{
+	vertical-align: middle;
+	text-align: center;
+}
+.rounded-circle{
+	border:8px white solid;
+}
+.sub-heading-desc{
+	text-align: center;
+	font-style: italic;
+}
+.description{
+	padding: 10px;
+	text-align: justify;
+}
