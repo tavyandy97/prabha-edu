@@ -456,10 +456,10 @@ textarea {
 	text-align: center;
 }
 .member-card{
-	background-color: lightgray;
+	background-color: #dddddd;
 	margin:10px 0px;
 	padding: 10px;
-	font-size: 0.9em;
+	font-size: 0.9em; 
 }
 .member-card div hr{
 	margin:5px;
