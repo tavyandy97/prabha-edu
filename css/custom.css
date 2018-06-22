@@ -412,7 +412,8 @@ div nav div ul .nav-item .active{
 	background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 1%,rgba(0,0,0,0.7) 55%,rgba(0,0,0,0.8) 100%), url("./../img/page_head.jpg"); 
 	background-position: 0% 50%;
 	background-attachment: fixed;
-	background-size: contain;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .page-end{
 	height: 50vh;
