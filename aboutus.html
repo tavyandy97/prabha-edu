@@ -258,21 +258,6 @@
 	</div>
 	<script src="./js/jquery-min-3_3_1.js"></script>
 	<script type="text/javascript">
-		const imageDiv = document.querySelector('.image-floater');
-		// imageDiv.style.backgroundImage="url('./img/car1.jpg')";
-		var changeImageScrollPicture = function(){
-			console.log(imageDiv.style.backgroundImage);
-			if(imageDiv.style.backgroundImage==="url(\"./img/car1.jpg\")"){
-				imageDiv.style.backgroundImage="url('./img/car2.jpg')";
-				console.log('pop');
-			}else{
-				imageDiv.style.backgroundImage="url('./img/car1.jpg')";
-				console.log('hey');
-			}
-		}
-		changeImageScrollPicture();
-		// document.querySelector('.img-floater-heading').classList.remove('zoomIn');
-		setInterval(changeImageScrollPicture , 30000);
 		$(document).ready(function(){
 			$('.navbar-toggler').click(function(){
 				$('#nav-icon3').toggleClass('open');
